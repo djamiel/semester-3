@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+.weaponbox {
+    position: relative;
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weaponbox h1 {
+    position: relative;
+    color: white;
+    top: 20px;
+}
+
+.weaponbox p {
+    position: relative;
+    color: white;
+    top: 20px;
+}
+
+.weaponbox img {
+    position: relative;
+    max-width: 80%;
+    max-height: 80px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}

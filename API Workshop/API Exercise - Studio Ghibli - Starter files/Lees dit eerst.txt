@@ -1,0 +1,23 @@
+Het end point van Studio Ghibli is niet langer beschikbaar, 
+we moeten dus naar een andere oplossing zoeken.
+
+Gebruik gewoon de basis (starter files) die ik beschikbaar heb gesteld.
+In de 'page header' / 'jumbotron' met de afbeelding en tekst 
+zet je voor jouw onderwerp een toepaslijke afbeelding enm tekst.
+
+Bij het 'movies; gedeelte plaats je informatie uit het door jouw gekozen end point.
+Kies een onderwerp dat jij interessant vindt.
+
+Bronnen en handige links:
+* https://www.freecodecamp.org/news/public-apis-for-developers/
+* https://rapidapi.com/
+* https://any-api.com/
+* https://www.postman.com/
+* https://jsonformatter.curiousconcept.com/
+
+Pro tip:
+Gebruik data uit (onder andere) dit end point, om dynamische data op je website / app
+te laten zien. Dat is veel beter dan gebruik maken van lorem ipsum.
+* https://jsonplaceholder.typicode.com/
+
+Er zijn uiteraard nog veel meer van dit soort end points. Denk ook aan afbeeldingen of icons.
