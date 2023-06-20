@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <title>David Travels - Starter</title>
+    <!-- this is to load the manifest and the apple touch icon -->
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <header>
+      <h1>David Travels</h1>
+    </header>
+    <main class="grid-container">
+      <article class="featured">
+        <img src="img/turkiye.png" alt="Balloon Magic in Turkiye" />
+        <div>
+          <h2>Balloon Magic in Turkiye</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque
+            sit molestias corporis quod quis velit at ea laborum? Quia
+            repellendus nobis eveniet, eligendi obcaecati est odit molestias
+            quisquam maxime voluptatem mollitia, explicabo atque tempore vitae
+            optio? Asperiores, deserunt commodi?
+          </p>
+        </div>
+      </article>
+      <article>
+        <img src="img/iran.png" alt="Brown mountain in Iran" />
+        <div>
+          <h3>Brown mountain in Zanjan, Iran</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+            nisi minus placeat hic animi eveniet consectetur voluptates aliquid,
+            sunt accusamus!
+          </p>
+        </div>
+      </article>
+      <article>
+        <img src="img/morocco.png" alt="Heritage Museum in Morocco" />
+        <div>
+          <h3>Heritage Museum in Morocco</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+            nisi minus placeat hic animi eveniet consectetur voluptates aliquid,
+            sunt accusamus!
+          </p>
+        </div>
+      </article>
+      <article>
+        <img src="img/jordan.png" alt="Camel riding in Wadi Rum, Jordan" />
+        <div>
+          <h3>Camel riding in Wadi Rum, Jordan</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+            nisi minus placeat hic animi eveniet consectetur voluptates aliquid,
+            sunt accusamus!
+          </p>
+        </div>
+      </article>
+    </main>
+  </body>
+  <script>
+    // registers the service worker
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker
+          .register("/sw.js")
+          .then((registration) => {
+            console.log("Service Worker registered:", registration);
+          })
+          .catch((error) => {
+            console.error("Service Worker registration failed:", error);
+          });
+      });
+    }
+  </script>
+</html>
